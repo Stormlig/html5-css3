@@ -4,24 +4,47 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Background fixed</title>
   <style>
     body {
       height: 100vh;
+      /*
       background-color: black;
       background-image: url('imagens-cap19/wallpaper002.jpg');
-      background-repeat: repeat-y;
+      background-repeat: no-repeat;
       background-position: center center;
+      background-size: cover;
+      background-attachment: fixed;
+
+      Declaração de Shorthand - 
+      background:
+      color > image > position > repeat > [size - no documento oficial ensina assim porém o size na pratica não funciona] > attachment
+      
+      na pratica:
+      */
+      background: black url('imagens-cap19/wallpaper002.jpg') center center no-repeat fixed;
       background-size: cover;
     }
 
     main {
       background-color: white;
-      width: 400px;
+      max-width: 400px;
       padding: 10px;
       margin: auto;
       border: 1px solid darkblue;
       border-radius: 15px;
+    }
+
+    h1{
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 3em;
+    }
+
+    p {
+      text-align: justify;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 1.5em;
     }
   </style>
 </head>
