@@ -98,8 +98,8 @@ section#img02{
 }
 
 aside {
-  padding-top: 30vh;
-  padding-bottom: 30vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   line-height: 1.5em;
   padding-right: 10px;
   padding-left: 10px;
@@ -128,11 +128,16 @@ aside.imgpe > p, h3 {
 }
 
 aside#imgpeg {
-background-image: url('../imagens/imgrodapé.jpg');
+background-image: url('../imagens/imgrodapé01.jpg');
 background-position: left top;
 background-size: cover;
 background-attachment: fixed;
 box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.603);
+}
+
+.spacing {
+  padding: 10%;
+  background-color: white;
 }
 
 footer {
